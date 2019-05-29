@@ -1,0 +1,3 @@
+<image src="/images/timg.jpg"  style='width:100%'/>
+<button  type="primary" size="default" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" style=''>授权登录二手书圈</button>
+<view wx:else>请升级微信版本</view>
